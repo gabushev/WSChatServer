@@ -1,0 +1,21 @@
+#wrapper {
+  width: 100%;
+  width: '995px';
+  min-width: 1000px;
+}
+#container {width: 100%;}
+#content {
+  width: 100%;
+  float: left;
+}
+#text {margin: 0 250px;}
+#left {
+  float: left;
+  width: 250px;
+  margin-left: -100%;
+}
+#right {
+  float: left;
+  width: 250px;
+  margin-left: -250px;
+}

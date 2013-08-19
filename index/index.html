@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="style.css" />
+        <script src="js/chat.js"></script>
+        <title>Socket-chat</title>
+    </head>
+    <body>
+    <div id="wrapper">
+    <div id="header">
+        &nbsp;</div>
+    <div id="container">
+        <div id="content">
+            <div id="text">
+                &nbsp;
+                <p>Messages</p><br />
+                <div id="messageWindow"></div>
+            </div>
+        </div>
+        <div id="left">
+            &nbsp;
+            <p>Your message</p>
+                <input type="text" id="messageText"></input>
+                <button id="sendText">Send</button>
+        </div>
+        <div id="right" class="clients">
+            &nbsp;
+            <p>Users online</p>
+        </div>
+        <div class="clear">
+            &nbsp;</div>
+    </div>
+    <div id="footer">
+        &nbsp;</div>
+    </div>
+        <script type="text/javascript">
+            var connect = new Connect();
+        </script>
+    </body>
+</html>
